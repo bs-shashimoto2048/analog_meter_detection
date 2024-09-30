@@ -521,7 +521,7 @@ struct ContentView: View {
 
         NavigationView {
             ZStack {
-                VStack { // <- 画面動かす必要なくなったのでこっちに戻す // _ScrollView {
+                VStack {
                     VStack {
                         // ヘッダーセクション
                         Text("Real-Time Analysis")
@@ -734,10 +734,6 @@ struct ContentView: View {
 
             }
         }
-        /* スライダー挙動のために起動時の立ち上げを廃止_2024/09/19
-                 .onAppear {
-         startCapturing() // アプリ開始時にキャプチャを開始
-         } */
     }
 
     // 映像キャプチャを開始する関数
