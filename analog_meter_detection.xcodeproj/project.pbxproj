@@ -16,6 +16,7 @@
 		41DBF6EA2CAA8A9B00DF8159 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DBF6E92CAA8A9B00DF8159 /* CoreGraphics.framework */; };
 		41DBF6EC2CAA8AA700DF8159 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DBF6EB2CAA8AA700DF8159 /* CoreImage.framework */; };
 		41DBF6EE2CAA8AB100DF8159 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DBF6ED2CAA8AB100DF8159 /* CoreMedia.framework */; };
+		41DBF6F32CAA94D400DF8159 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 41DBF6F22CAA94D400DF8159 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		41DBF6E92CAA8A9B00DF8159 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		41DBF6EB2CAA8AA700DF8159 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		41DBF6ED2CAA8AB100DF8159 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		41DBF6F22CAA94D400DF8159 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		41DBF6CA2CAA883200DF8159 = {
 			isa = PBXGroup;
 			children = (
+				41DBF6F22CAA94D400DF8159 /* README.md */,
 				41DBF6D52CAA883200DF8159 /* analog_meter_detection */,
 				41DBF6D42CAA883200DF8159 /* Products */,
 				41DBF6E82CAA8A9B00DF8159 /* Frameworks */,
@@ -152,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DBF6F32CAA94D400DF8159 /* README.md in Resources */,
 				41DBF6DE2CAA883300DF8159 /* Preview Assets.xcassets in Resources */,
 				41DBF6DB2CAA883300DF8159 /* Assets.xcassets in Resources */,
 			);
